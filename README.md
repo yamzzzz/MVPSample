@@ -6,7 +6,7 @@ Its about how to use MVP pattern for Android Application.
 Every class should have one dedicated Presenter for it. (1 to 1 relationship).
 All the network calls and Preference calls should be happened in Model class.
 
-<b>My way of using MVP architechture</b>
+<b>My way of using MVP architechture:</b>
 
 * <b>Presenter</b> should have all Bussiness logics, we are using.
 * <b>Connector</b> Interface acts like a 'Map' for Presenter, where we can know what functions are all happening. 
